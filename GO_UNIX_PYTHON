@@ -1,0 +1,200 @@
+MICRO SERVICES Architecture:	
+Why prefer go-lang or features?
+Which pkg have u used in go?
+	1.	What are the go commands have used?
+	2.	How to import third party pkg’s in go
+	3.	How do u manage pkgs which are imported 
+
+	Compilation and testing in Golang mocking and memory management, performance, debugging.
+
+1.
+Diff bw short and global variables?
+dynamic type declaration of a variable in Go?
+What is "rune" type in Go? 
+Wt is shallow copy and deep copy?
+May I know the example: map a=b, copy(a,b)
+2.
+Init a slice using make.
+How can I check if two slices are equal?
+3
+wt r user defined data types:
+Empty structure use?To save a memory
+type MyStruct struct {
+    Val int
+}
+Init a struct use a function taking a structure as a pointer argument 
+
+4.
+Empty interface use?
+wt is type assertion in go? Reflect pkg
+5.
+How to check if a map contains a key in Go?
+6.
+How do you copy a slice, a map, and an interface?
+a := []int{1, 2}
+b := []int{3, 4}
+check := a
+copy(a, b)
+fmt.Println(a, b, check)
+7.
+a = []int{1}
+b = []int{2}
+println(a == b)
+8.
+func main() {
+	names := [4]string{
+		"John",
+		"Paul",
+		"George",
+		"Ringo",
+	}
+	//fmt.Println(names)
+
+	a := names[0:2]
+	b := names[1:3]
+	fmt.Println(a, b)
+9.
+Diff  bw switch and select statement?
+10.
+Functions:
+How do you export functions from a package?
+Panic if not assign value to pointer,defer
+Recover
+11.
+Write a prog it return an anonymous function from another function
+
+Are channels and maps safe for concurrent access?
+
+12.Wt r go routins how will work? how to synchronise
+13.List the functions can stop or suspend the execution of current goroutine, and explain their differences
+14.
+Wt is channel? How many types?
+Is it possible to send and receive value in a channel within the function?
+When we need to close the channel?
+15.
+How to approach inheritance in go? Using embedded struct
+How to approach polymorphism in go? Using method with receiver of diff obj.
+
+What are the use(s) for tags in Go? 
+16.
+Reverse a string
+17.
+Remove duplicate
+18.
+Can u init a map with key type is string and value is empty structure?
+
+
+What is shell scripting?
+What is the default login shell? How to change it?
+What are the various stages of the Linux process? Waiting,running,stop,zambie
+What is a root user?
+What are the environmental variables?
+What is LILO?
+Which command is used to execute a shell file?
+What is the absolute and relative path?
+How to create and delete a directory ?
+How to create multiple text files and directories?
+What is the use of head and tell command?
+ How to find the current shell which you are using?
+How to find an available shell in your system?
+How to create shortcuts in Linux?
+How will you pass and access arguments to a script in Linux?
+What are the different types of variables used in Shell Script?
+What is the use of a pipe operator? How to execute multiple commands in one line?
+What are the different modes of vi editors?
+What is redirection?
+How to debug a shell script?
+Which command is used for comparing the string in the shell script?
+What is the difference between $! And $$?
+Which command is used to find all information of the user?
+Which four fundamental components of every file system?
+What is the Crontab?
+What are the different commands available to check the disk usage?
+ How to find out how long the system has been running? 
+How to connect to a remote server and execute some commands?
+How to connect to a database server from Linux? 
+How can I set the default permission to all users on every file which is created in the current shell? 
+How to find the total disk space used by a specific user? 
+How to print the login names of all users on a system? 
+Given a file, replace all occurrence of word “ABC” with “DEF” from 10t
+How will you find the 19th line of a file using only tail and head command? 
+ I want to create a directory such that anyone in the group can create a file and access any person’s file in it but none should be able to delete a file other than the one created by himself. 
+mkdir direc1
+chmod g+wx direc1
+chmod +t direc1
+How to get the 3rd element/column from each line from a file?
+#!/bin/sh awk ‘{print $3}’ $1
+How to get 5rd element from each line from the file?
+awk ‘{print $5}’
+how to find process name from process ID?
+ How to create alias command in shell?
+What is the c and b permission field of the file?
+ From given file name find the count of lines containing word  “ABC”
+grep –c “ABC” filename
+How to remove elements from an array with id 3?
+https://www.mygreatlearning.com/blog/top-shell-scripting-interview-questions-answers/
+PYTHON:
+How can an object be copied in Python?
+How can a number be converted to a string?
+What are module and package in Python?
+What is object() function in Python?
+What is the difference between NumPy and SciPy?
+Define encapsulation in Python?
+What is the type () in Python?
+What is split() function used for?
+What is PEP 8 and why is it important?
+What is Scope in Python?
+What are global, protected and private attributes in Python?
+What is self in Python?
+What is __init__?
+What are unit tests in Python?
+What is slicing in Python?
+ What is the difference between Python Arrays and lists?
+How is memory managed in Python?
+What are Python namespaces? Why are they used?
+
+What is Scope Resolution in Python?
+What is lambda in Python? Why is it used?
+What is the difference between xrange and range in Python?
+What is pickling and unpickling?
+What are generators in Python?
+What is the difference between .py and .pyc files?
+What does *args and **kwargs mean?
+What are negative indexes and why are they used?
+Python OOPS Interview Questions
+Python Pandas Interview Questions
+Numpy Interview Questions
+
+What are some of the most commonly used built-in modules in Python?
+
+	•	os
+	•	math
+	•	sys
+	•	random
+	•	re
+	•	datetime
+	•	JSON
+
+Are there any tools for identifying bugs and performing static analysis in python?
+What is main function in python? How do you invoke it?
+Python Programming Examples
+https://www.interviewbit.com/python-interview-questions/
+Write python function which takes a variable number of arguments.
+which takes a sequence of numbers and check if all numbers are unique.
+
+
+
+FEED BACK
+Golang:
+He has good experience in go-lang with 2 yr of experience including all topics of go.
+data types, Concurrency, go routins, methods and functions, inheritance approach. Go commands
+Coding feed back:
+Yes logically also good and resolved the given problems using go-lang language.He has good technical skills also having front end scripting like node Js.
+Unix feed back:
+He can capable to work on unix operating system machines using linux commands and on linux scripting ha has knowledge and very less experience, over all he can handle the scripting.
+Python scripting:
+Not enough 30 minutes  time to cover all the topics including python scripting, So i didn't check the python scripting, So at least we required minimum 45 min.
+
+He has 2 yr of experience as go-lang developer and he answered for all query's from go topics including logical programs, concurrency and micro services knowledge.
+
+
